@@ -1,19 +1,29 @@
-⛳ Golf Hero
+# ⛳ Golf Hero
+
 Full-stack fantasy golf platform with a subscription-based leaderboard and automated prize/charity distribution logic.
 
-🚀 Features
-"Rolling 5" Leaderboard: Logic-driven ranking system based on the five most recent score entries.
+## 🚀 Features
 
-Secure Admin Portal: Protected dashboard with Auth Guards for platform management.
+### 🏆 "Rolling 5" Leaderboard
 
-Automated Pool Logic: Real-time calculation of prize pools (40%) and charitable allocations.
+Logic-driven ranking system based on the five most recent score entries.
 
-Random Draw Engine: Secure, database-driven algorithm to select monthly winners.
+### 🔐 Secure Admin Portal
 
-⚙️ Run Locally
-Bash
+Protected dashboard with Auth Guards for platform management.
+
+### 💰 Automated Pool Logic
+
+Real-time calculation of prize pools (40%) and charitable allocations.
+
+### 🎲 Random Draw Engine
+
+Secure, database-driven algorithm to select monthly winners.
+
+## ⚙️ Run Locally
+
+```bash
 npm install
-
 # Add NEXT_PUBLIC_SUPABASE_URL & NEXT_PUBLIC_SUPABASE_ANON_KEY to .env
-
 npm run dev
+```
